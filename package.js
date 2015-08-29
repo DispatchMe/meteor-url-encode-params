@@ -6,7 +6,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.use([
-    'url',
+    'url@1.0.4',
   ], ['server', 'client']);
 
   api.imply(['url']);
